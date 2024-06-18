@@ -16,6 +16,7 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
+
 /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -29,7 +30,9 @@ pragma solidity ^0.8.18;
     5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
        to the amount that is supposed to be burned.
 */
+
 contract MyToken {
+
     // public variables here
     string public tokenName = "ETHEREUM";
     string public tokenAbbrev = "ETH";
@@ -51,6 +54,7 @@ contract MyToken {
             balances[_address] -= _value;
         }
     }
+
 }
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.7" (or another compatible version), and then click on the "Compile MyToken.sol" button.
