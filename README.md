@@ -2,9 +2,9 @@
 This program is a simple contract written in Solidity to give a basic idea about creating tokens and performing operations on them. The contract has multiple functions(i.e. burn and mint) that performs different tasks(i.e. increment and decrement). This program serves as a simple and straightforward introduction to Solidity programming, and can be used as a stepping stone for more complex projects in the future.
 
 # Description
-Let’s Create a Token, Together! will now create your very own token! Well, not really, but kinda!
-The contract has a public variables that store the details about the coin (Token Name, Token Abbrev, Total Supply)
-The contract also has a mapping of addresses to balances (address => uint)
+This code is used to create a token using mint function and to destroy the the token using burn function.
+The contract has a public variables that store the details about the Token (Token Name, Token Abbrev, Total Supply).
+The contract also has a mapping of addresses to balances (address => uint).
 We have a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
 The contract also has a burn function, which works the opposite of the mint function, as it will destroy tokens. It takes an address and value just like the mint functions. It then deducts the value from the total supply and from the balance of the address.
 Lastly, our burn function has conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
