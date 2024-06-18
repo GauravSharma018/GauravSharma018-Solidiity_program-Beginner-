@@ -10,14 +10,15 @@ The contract also has a burn function, which works the opposite of the mint func
 Lastly, our burn function has conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
 
 # Getting Started
-# Installing
+## Installing
 
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-# Executing
+## Executing
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
 
+'''
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 /*
@@ -56,6 +57,7 @@ contract MyToken {
         }
     }
 }
+'''
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.7" (or another compatible version), and then click on the "Compile MyToken.sol" button.
 
