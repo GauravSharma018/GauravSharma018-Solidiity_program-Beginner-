@@ -20,9 +20,8 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
-
 /*
-       REQUIREMENTS
+    REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
     2. Your contract will have a mapping of addresses to balances (address => uint)
     3. You will have a mint function that takes two parameters: an address and a value. 
@@ -34,9 +33,7 @@ pragma solidity ^0.8.18;
     5. Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal 
        to the amount that is supposed to be burned.
 */
-
 contract MyToken {
-
     // public variables here
     string public tokenName = "ETHEREUM";
     string public tokenAbbrev = "ETH";
@@ -68,7 +65,7 @@ Once the contract is deployed, you can interact with it by calling the mint func
 
 # Authors
 Gaurav Sharma
-Github -> GauravSharma018
+<br>
 gauravsharma1847@gmail.com
 
 # License
